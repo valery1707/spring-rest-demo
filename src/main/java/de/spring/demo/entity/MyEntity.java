@@ -14,7 +14,7 @@ public class MyEntity {
 
     @JsonCreator
     public MyEntity(@JsonProperty("foo") final String foo,
-                    @JsonProperty("foo") final Seq<String> myList) {
+                    @JsonProperty("myList") final Seq<String> myList) {
         this.foo = foo;
         this.myList = myList;
     }
